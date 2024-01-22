@@ -1,0 +1,349 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Poppins:wght@400;600&display=swap');
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.page{
+    padding-top: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+    position: relative;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    font-weight: 600;
+}
+
+.nav-items ul
+{
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-items li{
+    font-size: 1rem;
+}
+.nav-btn{
+    position: relative;
+    width: 12%;
+    height: 5vh;
+    align-items: center;
+    background-color: #128C7E;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+}
+
+.nav-btn > div{
+
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    color: rgba(241, 239, 239, 0.948);
+}
+
+.main-content{
+    /* position: relative; */
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.main-content > p{
+    margin-top: 1%;
+    font-weight: 700;
+    color: rgb(157, 157, 157);
+}
+#wp-text{
+    color: #128C7E;
+}
+
+#start-wp-btn
+{
+    width: 14rem;
+    height: 7vh;
+    padding: 1.5%;
+    margin-top: 4%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    background-color: #128C7E;
+    color: white;
+}
+
+.get-acc{
+    font-size: 0.9rem;
+    margin-top: 2%;
+}
+
+.pfp{
+    position: relative;
+    display: flex;
+    gap: 25px;
+    margin-top: 5%;
+}
+
+.page2{
+    background-image: linear-gradient(to top right, #009973, #00cc66);
+}
+
+.page-title2{
+    color: white;
+    padding-top: 2%;
+}
+
+.cd{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-items: center;
+    align-items: center;
+    padding: 5% 10%;
+
+}
+.cards{
+    position: relative;
+    width: 17rem;
+    height: 14rem;
+    background-color: white;
+    padding: 1%;
+    font-family: 'poppins', sans-serif;
+    border-radius: 4%;
+    box-shadow: -10px 10px #160647;   
+}
+
+.card-title{
+    position: absolute;
+    top: 2rem;
+    left: 1rem;
+    font-size: 1rem;
+}
+.text{
+    position: absolute;
+    top: 2rem;
+    left: 1rem;
+    padding-right: 1%;
+    font-size: 1rem;
+    margin-top: 15%;
+}
+
+.try-this{
+    position: absolute;
+    left: 1rem;
+    color: #128C7E;
+    font-size: 0.8rem;
+    font-weight: 600;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 10%;
+}
+
+.page3{
+    padding: 2%;
+}
+.page3-title > h1{
+    font-size: 2.5rem;
+}
+
+.page3-flex-container
+{
+    display: flex;
+    justify-content: space-between;
+    /* justify-items: center;
+    align-items: center; */
+    margin: 5%;
+
+}
+
+.sno{
+    display: flex;
+    gap: 2rem;
+    justify-items: center;
+    align-items: center;
+}
+
+.circle
+{
+    width: 70px;
+    height: 10vh;
+    border-radius: 50%;
+    background-color: #128C7E;
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+}
+
+.info{
+    width: 50%;
+    height: 15vh;
+    margin-top: 5%;
+}
+.info > h6{
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.info > small{
+    color: rgb(146, 145, 145);
+    font-size: 0.9rem;
+    
+}
+
+.right{
+    max-width: 40%;
+}
+
+#grn-text{
+    color: #128C7E;
+    font-size: 1rem;
+}
+
+.right > h2{
+    font-size: 3rem;
+}
+
+.get-started-btn{
+    margin-top: 10%;
+    width: 12rem;
+    height: 6vh;
+    border: none;
+    border-radius: 50px;
+    background-color: #128C7E;
+    color: white;
+
+}
+
+
+/* .reviews-container{
+    display: flex;
+    background-image: linear-gradient(to top right, #009973, #00cc66);
+    border-radius: 20px;
+}
+
+.rvw-card{
+    width: 30%;
+    background-color: white;
+    margin-bottom: 3%;
+    border-radius: 10px;
+}
+
+.comment, .name{
+    font-size: 0.8rem;
+}
+
+.rvw-row1{
+    margin-left: 15%;
+} */
+
+.price-flex-container
+{
+    display: flex;
+    padding: 10%;
+    gap: 5rem;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+}
+.p1{
+    width: 20%;
+    height: 50vh;
+    box-shadow: 10px 10px #160647;
+    border-radius: 8px;
+}
+
+.p1 > h1{
+    font-size: 2rem;
+    color: #00453d;
+}
+.choose-btn{
+    margin-top: 1rem;
+    width: 8rem;
+    height: 5vh;
+    border: none;
+    border-radius: 4px;
+    background-color: #128C7E;
+}
+
+.label{
+    color: white;
+    padding: 2%;
+    background-image: radial-gradient(#38b275, #034f46);
+}
+
+.lbl-title{
+    font-size: 2rem;
+}
+.label-btn{
+    background-color: #160647;
+    border: none;
+    border-radius: 5px;
+    width: 15%;
+    height: 6vh;
+    font-size: 0.9rem;
+    margin-top: 4%;
+    margin-bottom: 2%;
+    color: white;
+}
+
+.last
+{
+    display: flex;
+    gap: 45px;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+    padding: 3%;
+}
+
+.last small, p, a{
+    font-weight: 700;
+    text-decoration: none;
+   
+}
+.cpm, .pdt{
+    color: #160647;
+    font-weight: 900;
+    font-size: 1rem;
+}
+
+ul{
+    margin-top: 15%;
+    list-style-type: none;
+    font-size: 0.7rem;
+}
+
+li{
+    margin-bottom: 5%;
+}
+
+a{
+    font-weight: 600;
+    margin-bottom: 5rem;
+    color: black;
+}
+.copywright-label{
+    font-size: 0.8rem;
+}
+
+.cpy-text{
+    color: #009973;
+}
